@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+:root {
+    --big: 'Andika New Basic', sans-serif;
+    --small: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAF3FA;
+    position: relative;
+}
+
+/* ////////// navbar ////////// */
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 1rem 0rem;
+    background-color: #EAF3FA;
+}
+
+.navlogo, .navlinks {
+    margin: auto;
+    flex: 1;
+}
+
+.navlogo {
+    display: flex;
+    justify-content: left;
+    margin-left: 5rem;
+    font-family: var(--big);
+}
+
+.navlogo h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.navlinks ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+li {
+    list-style: none;
+    margin: 0rem 2rem;
+}
+
+a {
+    font-family: var(--small);
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+/* ////////// content1 ////////// */
+
+.headpic {
+    height: 500px;
+    width: 800px;
+}
+
+.content1 {
+    display: flex;
+}
+
+.heading, .headingpic {
+    flex: 1;
+    display: flex;
+}
+
+.heading {
+    flex-direction: column;
+    padding: 1rem 2rem;
+    margin: auto 2rem;
+}
+
+.heading h1 {
+    padding: 1rem 0rem;
+    font-family: var(--big);
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 45px;
+}
+
+.heading p {
+    font-family: var(--small);
+    font-size: 1.3rem;
+}
+
+.learnmore {
+    margin: 1rem 0rem;
+    width: 25%;
+    padding: 0.5rem 0rem;
+    font-family: var(--small);
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* ////////// content2 ////////// */
+
+.headpic2 {
+    width: 800px;
+}
+
+.content2 {
+    display: flex;
+    padding: 1rem 0rem;
+    background-color: white;
+}
+
+.headingpic2, .heading2 {
+    flex: 1;
+}
+
+.heading2 {
+    margin: auto 3rem;
+
+}
+
+.heading2 p {
+    font-size: 2rem;
+    font-family: var(--small);
+}
+
+/* ////////// content3 ////////// */
+
+.headpic3 {
+    width: 700px;
+}
+
+.content3 {
+    display: flex;
+    background-color: white;
+}
+
+.heading3, .headingpic3 {
+    flex: 1;
+    display: flex;
+}
+
+.heading3 {
+    flex-direction: column;
+    margin: auto 3rem;
+    background-color: white;
+}
+
+.heading3 h1 {
+    font-family: var(--big);
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 45px;
+    padding: 1rem 0rem;
+}
+
+.heading3 p {
+    font-family: var(--small);
+    font-size: 1.5rem;
+}
+
+/* ////////// content4 ////////// */
+
+.content4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0rem;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.priv {
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.priv p {
+    font-family: var(--small);
+    font-size: 1.5rem;
+}
+
+/* ////////// footer ////////// */
+
+.footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 4rem;
+}
+
+.footer .footerhead {
+    font-family: var(--big);
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 2rem 0rem;
+}
+
+.footerlinks {
+    display: flex;
+}
+
+.linkers svg {
+    margin: 0rem 1rem;
+}
+
+.footerend {
+    padding: 4rem 0rem;
+    text-align: center;
+}
+
+.footerend h3 {
+    font-family: var(--small);
+    font-weight: 400;
+}
+
+
+
