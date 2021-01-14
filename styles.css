@@ -67,8 +67,7 @@ a {
 /* ////////// content1 ////////// */
 
 .headpic {
-    height: 500px;
-    width: 800px;
+    width: 60vw;
 }
 
 .content1 {
@@ -90,29 +89,30 @@ a {
     padding: 1rem 0rem;
     font-family: var(--big);
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 3vw;
     line-height: 45px;
 }
 
 .heading p {
     font-family: var(--small);
-    font-size: 1.3rem;
+    font-size: 1.3vw;
 }
 
 .learnmore {
     margin: 1rem 0rem;
     width: 25%;
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 1rem;
     font-family: var(--small);
     background-color: black;
     color: white;
     border: none;
+    font-size: 0.7rem;
 }
 
 /* ////////// content2 ////////// */
 
 .headpic2 {
-    width: 800px;
+    width: 60vw;
 }
 
 .content2 {
@@ -131,14 +131,14 @@ a {
 }
 
 .heading2 p {
-    font-size: 2rem;
+    font-size: 3vw;
     font-family: var(--small);
 }
 
 /* ////////// content3 ////////// */
 
 .headpic3 {
-    width: 700px;
+    width: 60vw;
 }
 
 .content3 {
@@ -230,6 +230,121 @@ a {
 .footerend h3 {
     font-family: var(--small);
     font-weight: 400;
+}
+
+@media screen and (max-width: 850px) {
+
+    /* nav */
+
+    nav {
+        flex-direction: column;
+    }
+
+    .navlogo {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .navlinks ul {
+        justify-content: center;
+        margin-right: 1rem;
+    }
+
+    /* content1 */
+
+    .headpic {
+        width: 70vw;
+    }
+
+    .content1 {
+        flex-direction: column;
+    }
+
+    .heading {
+        justify-self: left;
+        padding: 4rem 0rem 4rem 0rem;
+        margin: 2rem;
+    }
+
+    .heading h1 {
+        font-size: 7vw;
+    }
+
+    .heading p {
+        font-size: 4vw;
+    }
+
+    .headingpic {
+        margin: auto;
+    }
+
+    /* content2 */
+
+    .content2 {
+        flex-direction: column;
+        padding: 4rem 0rem;
+    }
+
+    .headingpic2 {
+        margin: auto;
+    }
+
+    .headpic2 {
+        width: 70vw;
+        text-align: center;
+    }
+
+    .headingpic2 {
+        padding: 4rem 0rem;
+    }
+    .heading2 p {
+        font-size: 5vw;
+    }
+
+    /* content3 */
+
+    .content3 {
+        flex-direction: column;
+        padding: 4rem 0rem;
+    }
+
+    .headpic3 {
+        width: 70vw;
+    }
+
+    .headingpic3 {
+        margin: auto;
+    }
+
+    .heading3 h1 {
+        padding: 2rem 0rem;
+    }
+
+    .heading3 p {
+        padding: 2rem 0rem;
+    }
+
+    /* footer */
+
+    .footer {
+        padding: 0rem 1rem;
+    }
+
+    .footer .footerhead {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .footer .footerlinks {
+        justify-content: center;
+    }
+
+    .footerend h3 {
+        font-size: 1rem;
+    }
+
+
+
 }
 
 
