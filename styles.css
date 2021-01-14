@@ -247,7 +247,7 @@ a {
 
     .navlinks ul {
         justify-content: center;
-        margin-right: 1rem;
+        margin: auto;
     }
 
     /* content1 */
@@ -297,9 +297,12 @@ a {
     .headingpic2 {
         padding: 4rem 0rem;
     }
+
     .heading2 p {
         font-size: 5vw;
     }
+
+    
 
     /* content3 */
 
@@ -318,6 +321,7 @@ a {
 
     .heading3 h1 {
         padding: 2rem 0rem;
+        font-size: 2.5rem;
     }
 
     .heading3 p {
